@@ -16,14 +16,14 @@ bytes = "1.7.2"
 console_error_panic_hook = "0.1"
 futures = "0.3.30"
 hydration_context = { version = "0.3.0" }
-leptos = { version = "0.8.9" }
-leptos_meta = { version = "0.8.5" }
-leptos_router = { version = "0.8.7" }
+leptos = { version = "0.8.19" }
+leptos_meta = { version = "0.8.6" }
+leptos_router = { version = "0.8.13" }
 leptos_wasi = { version = "0.3.1", default-features = false, features = ["wasip3"], optional = true }
-server_fn = { version = "0.8.7", features = ["axum-no-default"] }
+server_fn = { version = "0.8.12", features = ["axum-no-default"] }
 spin-sdk = { version = "6.0.0", optional = true }
 wasip3 = { version = "0.6.0", features = ["http-compat"], optional = true }
-wasm-bindgen = { version = "0.2", optional = true }
+wasm-bindgen = { version = "=0.2.114", optional = true }
 web-sys = { version = "0.3", features = ["Storage", "Window"], optional = true }
 
 [features]
